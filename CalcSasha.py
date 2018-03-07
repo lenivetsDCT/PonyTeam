@@ -1,4 +1,4 @@
-print ("Дурак ли ты?")
-input ("ты дурак")
-x = input ('точно?')
-print (x)
+x = input("марка авто?")
+y = int(input("Сколько КМ до работы?")) 
+sum = y * 5
+print(x , sum, 'Ура' )

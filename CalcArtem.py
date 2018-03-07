@@ -7,10 +7,7 @@
 # print('Sum: ', sum, "LOLO")
 
 list = []
-while True:
-    x = input("Enter brand: ")
-    if (len(x) > 5): 
-        list.append(x)
-    if x == '':
-         break
+x = input("Enter brand: ")
+if (len(x) > 5): 
+    list.append(x)
 print(list)

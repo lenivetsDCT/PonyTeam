@@ -6,8 +6,13 @@
 # sum = x + y
 # print('Sum: ', sum, "LOLO")
 
+models = ['Tesla', 'VW', 'BMW', 'Mercedes']
+run_list = ['5', '7', '2', '1']
+
 list = []
-x = input("Enter brand: ")
-if (len(x) > 5): 
-    list.append(x)
+for model in models:
+    run_element = models.index(model)
+    total_km = int( run_list[run_element] ) * 5
+    if (total_km > 15): 
+        list.append(model)
 print(list)

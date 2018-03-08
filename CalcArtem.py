@@ -14,5 +14,5 @@ for model in models:
     run_element = models.index(model)
     total_km = int( run_list[run_element] ) * 5
     if (total_km > 15): 
-        list.append(model)
-print(list)
+        list.append(total_km)
+print(sorted(list, reverse=True))
